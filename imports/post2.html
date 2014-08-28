@@ -1,0 +1,18 @@
+
+<div id="post">
+  <h1>A post header</h1>
+  <p>Yada yada yada ...</p>
+</div>
+
+<script>
+  // thisDoc refers to the "importee", which is blog-post.html
+  var thisDoc = document.currentScript.ownerDocument;
+
+  // thatDoc refers to the "importer", which is index.html
+  var thatDoc = document;
+
+  // grab the contents of the #blog-post from this document
+  // and append it to the importing document.
+  var content = thisDoc.querySelector( '#post' );
+  thatDoc.body.appendChild( thatDoc.importNode( content, true ) );
+</script>

@@ -1,0 +1,46 @@
+
+<template id="markdown">
+ <div id="text"></div>
+</template>
+
+
+<script>
+  console.log( "hello from post script block" );
+  // thisDoc refers to the "importee", which is x-markdown.html
+  var thisDoc = document.currentScript.ownerDocument;
+
+  // thatDoc refers to the "importer", which is index.html
+  var thatDoc = document;
+
+  var template = thisDoc.querySelector( '#markdown' );
+
+  // Make sure you extend an existing HTMLElement prototype
+  var proto = Object.create(HTMLElement.prototype);
+
+  // Remove all leading/trailing whitespace so it's not confused as
+  // a code block
+  proto.trim = function( text ) {
+     return text.replace(/^[^\S\n]+/gm, '' );    // todo: fix up regex - why \S\n ???  just use [ \t] - how will it trim trailing whitespace??
+  };
+
+  proto.createdCallback = function() {
+    console.log( "hello from markdown createdCallback" );
+     
+    // Create a ShadowDOM to hold our template content
+    var root = this.createShadowRoot();
+    var clone = thatDoc.importNode( template.content, true );
+
+    // Add the template content + chart to our Shadow DOM
+    root.appendChild( clone );
+   
+    // add to ready callback???
+    // this.text = this.trim(this.textContent);
+    
+    // add to textChangesd callback - how???
+    //  textChanged: function() {
+    //    this.$.markdown.innerHTML = marked(this.text);
+    //  },
+  };
+
+  var markdownEl = thatDoc.registerElement( 'x-markdown', {prototype: proto} );
+</script>

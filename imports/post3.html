@@ -1,0 +1,25 @@
+
+<template id="post">
+
+<div>
+  <h1>A post header</h1>
+  <p>Yada yada yada ...</p>
+</div>
+<script>
+  console.log( "hello from template post script block" );
+</script>
+    
+</template>
+
+
+<!-- will get executed when imported/included -->
+<script>
+  console.log( "hello from post script block" );
+  // thisDoc refers to the "importee", which is post.html
+  var thisDoc = document.currentScript.ownerDocument;
+  // thatDoc refers to the "importer", which is basic.html
+  var thatDoc = document;
+
+  var template = thisDoc.querySelector( '#post' );
+  thatDoc.body.appendChild( thatDoc.importNode( template.content, true ) );
+</script>
