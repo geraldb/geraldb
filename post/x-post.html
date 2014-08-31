@@ -17,7 +17,7 @@
   // thatDoc refers to the "importer", which is basic.html
   var thatDoc = document;
 
-  var template = thisDoc.querySelector( '#post' );
+  var tpl = thisDoc.getElementById( 'post' );
 
 
   // Make sure you extend an existing HTMLElement prototype
@@ -28,11 +28,13 @@
 
     // Create a ShadowDOM to hold our template content
     var root = this.createShadowRoot();
-    var clone = thatDoc.importNode( template.content, true );
+    
+    // todo: check (readup on) importNode js function docu
+    var clone = thatDoc.importNode( tpl.content, true );
 
-   // Add the template content + chart to our Shadow DOM
-   root.appendChild( clone );
+    // Add the template content + chart to our Shadow DOM
+    root.appendChild( clone );
   };
 
-  var postEl = thatDoc.registerElement( 'x-post', {prototype: proto} );
+  document.registerElement( 'x-post', {prototype: proto} );
 </script>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Template Element</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+
+   <template id="foo">
+     <style>
+        /* note: once added (merged/stamped out) will have "global" document scope
+            that is, all p(aragraphs) will get a green background
+         */
+        p { background-color: green; }
+     </style>
+    
+     <h2>Gorilla Beringei</h2>
+     <p>A species of the genus Gorilla...</p>
+     <script>
+        alert( "Hello from template script block" );
+     </script>
+   </template>
+ 
+   <div id="bar">
+     <h1>Eastern Gorilla</h1>
+   </div>
+ 
+    <script>
+      var tpl = document.getElementById( 'foo' );
+      console.log( tpl.content );
+      
+      var bar = document.getElementById( 'bar' );
+      
+      // todo: check/readup on cloneNode( true ) js function docu
+      
+      bar.appendChild( tpl.content.cloneNode( true ) )
+    </script>
+
+  </body>
+</html>

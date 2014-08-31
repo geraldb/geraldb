@@ -1,0 +1,22 @@
+
+
+<!-- will get executed when imported/included -->
+<script>
+  console.log( "hello from reverse script block" );
+
+  // Make sure you extend an existing HTMLElement prototype
+  var proto = Object.create(HTMLElement.prototype);
+
+  proto.createdCallback = function() {
+
+    console.log( "hello from reverse createdCallback" );
+
+    console.log( "innerHTML: " + this.innerHTML );
+    console.log( "textContent: " + this.textContent );
+
+    this.textContent = this.textContent.split('').reverse().join('');
+  };
+
+  document.registerElement( 'x-reverse', {prototype: proto} );
+</script>
+
