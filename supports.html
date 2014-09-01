@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Web Components Machinery</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+
+
+<script>
+function supportsImports() {
+  return 'import' in document.createElement('link');
+}
+
+function supportsCreateShadowRoot() {
+  return 'createShadowRoot' in document.createElement('div');
+}
+
+
+if( supportsImports() ) {
+  document.write( "HTML Imports - Good to go!" );
+}
+else {
+  document.write( "HTML Imports - Sorry, it's time to get a better browser e.g. install Chrome 36+!" );
+}
+
+if( supportsCreateShadowRoot() ) {
+  document.write( " // createShadowRoot() - Good to go!" );
+}
+else {
+  document.write( " // createShadowRoot() - Sorry, it's time to get a better browser e.g. install Chrome 36+!" );
+}
+
+</script>
+
+
+  </body>
+</html>
