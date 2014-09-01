@@ -28,7 +28,7 @@ root.textContent = 'Hello, shadow world!';
   root.appendChild( newH );
 </script>
 
-<div id="nameTag">Bob</div>
+<div id="nameTag">Ruby Tera</div>
 
 <template id="nameTagTemplate">
 <style>
@@ -59,7 +59,7 @@ root.textContent = 'Hello, shadow world!';
     Hi! My name is
   </div>
   <div class="name">
-    Bob
+    <content></content> <!-- insertion point - will insert content from host e.g. Ruby Tera -->
   </div>
 </div>
 </template>
@@ -68,6 +68,11 @@ root.textContent = 'Hello, shadow world!';
 var tpl  = document.getElementById( 'nameTagTemplate' );
 var root = document.getElementById( 'nameTag' ).createShadowRoot();
 root.appendChild( tpl.content.cloneNode( true ) );
+</script>
+
+<script>
+/* now update name <content></content> to Shellie */
+document.getElementById( 'nameTag' ).textContent = "Shellie";
 </script>
 
 
