@@ -1,0 +1,68 @@
+<template id="hello">
+<style>
+.outer {
+  border: 2px solid brown;
+  border-radius: 1em;
+  background: red;
+  font-size: 20pt;
+  width: 12em;
+  height: 7em;
+  text-align: center;
+}
+
+.boilerplate {
+  color: white;
+  font-family: sans-serif;
+  padding: 0.5em;
+}
+.name {
+  color: black;
+  background: white;
+  font-family: "Marker Felt", cursive;
+  font-size: 45pt;
+  padding-top: 0.2em;
+}
+</style>
+<div class="outer">
+  <div class="boilerplate">
+    Hi! My name is
+  </div>
+  <div class="name">
+    <content></content> <!-- insertion point - will insert content from host e.g. Ruby Tera -->
+  </div>
+</div>
+</template>
+
+
+
+<!-- will get executed when imported/included -->
+<script>
+  console.log( "hello from post script block" );
+  // thisDoc refers to the "importee", which is post.html
+  var thisDoc = document.currentScript.ownerDocument;
+  // thatDoc refers to the "importer", which is basic.html
+  var thatDoc = document;
+
+  var tpl = thisDoc.getElementById( 'hello' );
+
+
+  // Make sure you extend an existing HTMLElement prototype
+  var proto = Object.create(HTMLElement.prototype);
+
+  proto.createdCallback = function() {
+    console.log( "hello from post createdCallback" );
+
+    // Create a ShadowDOM to hold our template content
+    var root = this.createShadowRoot();
+    
+    // todo: check (readup on) importNode js function docu
+    var clone = thatDoc.importNode( tpl.content, true );
+    // Add the template content + chart to our Shadow DOM
+    root.appendChild( clone );
+
+    // same as -- ?? -- why use the one or the other ???
+    // root.appendChild( tpl.content.cloneNode( true ) );
+  };
+
+  document.registerElement( 'x-hello', {prototype: proto} );
+</script>
