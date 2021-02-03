@@ -23,7 +23,7 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 
 #### Code, Code, Code
 
-- [pluto](https://github.com/feedreader/pluto) - planet feed reader and (static) website generator - auto-build web pages from published web feeds
+- [pluto](https://github.com/feedreader/pluto.starter) - planet feed reader and (static) website generator - auto-build web pages from published web feeds
 - [sportdb](http://sportdb.github.io/) - open sports database (e.g. football.db, formula1.db etc.) command line tool and libraries
 - [wikiscript-parser](https://github.com/wikiscript/wikiscript) - wikitext/script parser (builds abstract syntax tree 'n' more)
 - [crypto-lite](https://github.com/rubycoco/blockchain/tree/master/crypto-lite) - cryptographic secure hash functions and public key signature algorithms made easy
