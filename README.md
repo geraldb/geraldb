@@ -20,6 +20,22 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 - [The World Factbook](https://github.com/factbook) - Free Open Public Domain 250+ Country Profiles (Incl. Flags 'n' Maps)
 - [Football.DB](https://github.com/openfootball) - Open Public Domain Football Datasets in (Structured) Text using the (Future-Proof & Evergreen) Football.TXT Format
 
+
+#### Code, Code, Code
+
+- [pluto](https://github.com/feedreader/pluto) - planet feed reader and (static) website generator - auto-build web pages from published web feeds
+- [sportdb](http://sportdb.github.io/) - open sports database (e.g. football.db, formula1.db etc.) command line tool and libraries
+- [wikiscript-parser](https://github.com/wikiscript/wikiscript) - wikitext/script parser (builds abstract syntax tree 'n' more)
+- [crypto-lite](https://github.com/rubycoco/blockchain/tree/master/crypto-lite) - cryptographic secure hash functions and public key signature algorithms made easy
+- [Many More Libraries](https://rubygems.org/profiles/geraldbauer)
+
+
+#### What's Next?
+
+- [Text with Instructions (.texti) - Structured Documents in Text with Formatting Conventions](https://texti.github.io/) - The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now
+- [JSON: 1.1 # JSON with Extensions (JSONX)](https://json-next.github.io/) - JSON v1.1 - JSON Evolved for Humans - Easy-to-Write, Easy-to-Read; incl. comments,  unquoted strings, multi-line strings, folded strings, trailing commas, optional commas, `<..-..>` shortcuts, optional `=` is the new `:`, auto-wrapped objects, and more 
+
+
 #### Podcasts / Radio Talks
 
 - [The State of Open Data - Or Where to Find Good Beer @ Developer Melange](http://developermelange.com/022-state-of-open-data/)
