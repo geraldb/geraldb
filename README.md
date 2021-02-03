@@ -16,7 +16,6 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 
 #### Open Data
 
-- [Comma-Separated Values (CSV) Format Specifications (and Tests)](https://github.com/csvspecs) - CSV v1.0, CSV v1.1, CSV Strict, CSV <3 Numerics, CSV<3 JSON, CSV <3 YAML, CSV (Inline) Meta Data - (Open) Structured (Tabular) Data in Text
 - [The World Factbook](https://github.com/factbook) - Free Open Public Domain 250+ Country Profiles (Incl. Flags 'n' Maps)
 - [Football.DB](https://github.com/openfootball) - Open Public Domain Football Datasets in (Structured) Text using the (Future-Proof & Evergreen) Football.TXT Format
 
@@ -33,6 +32,7 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 #### What's Next?
 
 - [Text with Instructions (.texti) - Structured Documents in Text with Formatting Conventions](https://texti.github.io/) - The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now
+- [Comma-Separated Values (CSV) Format Specifications (and Tests)](https://github.com/csvspecs) - CSV v1.0, CSV v1.1, CSV Strict, CSV <3 Numerics, CSV<3 JSON, CSV <3 YAML, CSV (Inline) Meta Data - (Open) Structured (Tabular) Data in Text
 - [JSON: 1.1 # JSON with Extensions (JSONX)](https://json-next.github.io/) - JSON v1.1 - JSON Evolved for Humans - Easy-to-Write, Easy-to-Read; incl. comments,  unquoted strings, multi-line strings, folded strings, trailing commas, optional commas, `<..-..>` shortcuts, optional `=` is the new `:`, auto-wrapped objects, and more 
 
 
