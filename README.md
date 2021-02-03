@@ -18,11 +18,11 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 
 - [Comma-Separated Values (CSV) Format Specifications (and Tests)](https://github.com/csvspecs) - CSV v1.0, CSV v1.1, CSV Strict, CSV <3 Numerics, CSV<3 JSON, CSV <3 YAML, CSV (Inline) Meta Data - (Open) Structured (Tabular) Data in Text
 - [The World Factbook](https://github.com/factbook) - Free Open Public Domain 250+ Country Profiles (Incl. Flags 'n' Maps)
-- [football.db](https://github.com/openfootball) - Open Public Domain Football Datasets in (Structured) Text using the (Future-Proof & Evergreen) Football.TXT Format
+- [Football.DB](https://github.com/openfootball) - Open Public Domain Football Datasets in (Structured) Text using the (Future-Proof & Evergreen) Football.TXT Format
 
 #### Podcasts / Radio Talks
 
-- [The state of open data - or where to find good beer @ Developer Melange](http://developermelange.com/022-state-of-open-data/)
+- [The State of Open Data - Or Where to Find Good Beer @ Developer Melange](http://developermelange.com/022-state-of-open-data/)
 - [Programmable Money @ Developer Melange](http://developermelange.com/021-programmable-money/)
 
 #### Talk Notes
