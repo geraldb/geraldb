@@ -12,14 +12,14 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 - [Programming Crypto Blockchain Contracts Step-by-Step Book / Guide](https://github.com/s6ruby/programming-crypto-contracts) - Let's Start with Ponzi & Pyramid Schemes. Run Your Own Lotteries, Gambling Casinos and more on the Blockchain World Computer...
 - [Programming Bitcoin Script Transaction (Crypto) Contracts Step-by-Step Book / Guide](https://github.com/openblockchains/programming-bitcoin-script) - Let's start with building your own bitcoin stack machine from zero / scratch and let's run your own bitcoin ops (operations)...
 - [Programming Crypto Kitties & Copycats Step-by-Step Book / Guide](https://github.com/cryptocopycats/programming-crypto-collectibles) -  Inside Unique Bits & Bytes on the Blockchain...
-- [Programming Crypto Punks & Copypastas Step-by-Step Book / Guide](https://github.com/cryptopunksnotdead/programming-cryptopunks) -  Inside Unique Pixel Art on the Blockchain...
+- [Programming Crypto Punks & Copypastas Step-by-Step Book / Guide](https://github.com/cryptopunksnotdead/programming-cryptopunks) -  Inside Unique 24×24 Pixel Art on the Blockchain...
 
 
 
 #### Inside the Crypto Bubble
 
 - [Inside the CryptoKitties Bubble (Anno 2017)](https://github.com/cryptocopycats/awesome-cryptokitties-bubble) - 2 000 000+ Cartoon Cats on the Blockchain (Exclusives, Special Editions, Fancies & More)
-- [Inside the CryptoPunks Bubble (Anno 2021)](https://github.com/openblockchains/awesome-cryptopunks-bubble) - 10 000 Characters, Generated Algorithmically - Modern 24×24 Pixel Crypto Art on the Blockchain
+- [Inside the CryptoPunks Bubble (Anno 2021)](https://github.com/cryptopunksnotdead/awesome-cryptopunks-bubble) - 10 000 Characters, Generated Algorithmically - Modern 24×24 Pixel Crypto Art on the Blockchain
 
 
 #### Open Data
