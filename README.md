@@ -5,6 +5,9 @@ _A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Jobless
 the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money](https://bitsblocks.github.io/get-rich-quick-bible)._
 
 
+**NEW!**  Weekly Updates - see [**Gerald Bauer's Code Monkey Diary / Updates - What's News? »**](https://geraldb.github.io/)    
+
+
 
 #### Blockchain Programming Book(lets)
 
