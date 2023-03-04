@@ -7,6 +7,8 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 
 **NEW!**  Weekly Updates - see [**Gerald Bauer's Code Monkey Diary / Updates - What's News? »**](https://geraldb.github.io/)    
 
+**NEW!**  [**Help & support page / repo for Gerald Bauer's open source / data / (pixel) art work »**](https://github.com/geraldb/help)
+
 
 
 #### Blockchain Programming Book(lets)
