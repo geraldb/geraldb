@@ -54,8 +54,8 @@ Crypto Collectibles Series
 
 #### Podcasts / Radio Talks
 
-- [The State of Open Data - Or Where to Find Good Beer @ Developer Melange](http://developermelange.com/022-state-of-open-data/)
-- [Programmable Money @ Developer Melange](http://developermelange.com/021-programmable-money/)
+- [The State of Open Data - Or Where to Find Good Beer @ Developer Melange](https://developermelange.github.io/022-state-of-open-data/)
+- [Programmable Money @ Developer Melange](https://developermelange.github.io/021-programmable-money/)
 
 #### Talk Notes
 
